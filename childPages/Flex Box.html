@@ -22,7 +22,43 @@
 
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
-
+        <style>
+            *{
+                box-sizing: border-box;
+                font-size:5vw;
+            }
+     
+            div {border: thin solid red}
+            .header {
+                border: green 5px solid;
+                padding: 5px;
+                font-size:15vw;
+            }
+            .menu {
+            width:25%;
+            padding: 15px;
+            float: left;
+            border: 1px solid rgb(19,99, 99);
+            }
+            .main {
+                width:50%;
+            padding: 15px;
+            float: left;
+            border: 1px solid rgb(19,9, 28);
+            }
+            .aside {
+                width:25%;
+            padding: 15px;
+            float: left;
+            border: 1px solid rgb(19,90, 128);
+            }
+            .footer {
+                width:25%;
+            padding: 15px;
+            float: left;
+            border: 1px solid rgb(190,9, 128);
+            }
+            </style>
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI your Feature to execute scripts in turned off</noscript>
 
     </head>
@@ -33,10 +69,10 @@
                 <a>And Styles in the HEAD</a>
             </header>
         </div>
-        <div><nav></nav></div>
-        <div><aside></aside></div>
-        <div><section></section></div>
-        <div><article></article></div>
+        <div><nav class="header">Navigation</nav></div>
+        <div><aside class="Aside">Aside</aside></div>
+        <div><section class="Section">Section</section></div>
+        <div><article class="Article">Article</article></div>
         <div><footer></footer></div>
 </body>
 
